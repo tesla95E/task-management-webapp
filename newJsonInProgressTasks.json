@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "title": "Eat",
+      "description": ""
+    },
+    {
+      "title": "Sleep",
+      "description": "No sleep"
+    },
+    {
+      "title": "Party",
+      "description": "No party"
+    },
+    {
+      "title": "Code",
+      "description": "Always code"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <h1>Proiect 1.2</h1>
+
+    <h2>Taskuri externe</h2>
+    <hr />
+    <ul id="external-task-list">
+      <li id="loading-msg">Nici un task prezent</li>
+    </ul>
+    <div>
+      <button id="get-external-task">Populeaza taskuri externe</button>
+    </div>
+    <template id="external-task-li">
+      <li>
+        <h3></h3>
+        <p></p>
+        <button>Muta acest task in lista de taskuri in progres</button>
+      </li>
+    </template>
+
+    <h2>Taskuri in progres</h2>
+    <hr />
+    <ul id="in-progress-list"></ul>
+    <template id="in-progress-task-li">
+      <li>
+        <h3></h3>
+        <p></p>
+        <button>Task finalizat</button>
+      </li>
+    </template>
+  </body>
+</html>
